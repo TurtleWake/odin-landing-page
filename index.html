@@ -4,40 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Odin Project</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="header">
         <nav>
-            <ul>
-                <li><img src="" alt="Logo"></li>
+            <ul class="nav">
+                <li id="logo"><img src="https://cdn.discordapp.com/attachments/1172613277889601567/1173720355291004979/logo-no-background.png?ex=6564fb43&is=65528643&hm=721caf8f4074e6f78a8316b127d0ec54adcf702860736cd130999606423729fb&" alt="Logo"></li>
                 <li>header link one</li>
                 <li>header link two</li>
                 <li>header link three</li>
             </ul>
         </nav>
-        <div>
-            <h1>This website is awesome</h1> 
-            <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast</p>
-            <img src="" alt="business image">
+        <div class="welcome">
+            <div class="text-box">
+                <h1 class="greeting">Welcome to PixelCraft Studios</h1> 
+                <p id="wintro">At PixelCraft Studios, we believe in the power of creativity to transform businesses. We are a team of passionate individuals dedicated to delivering innovative solutions in graphic design, web development, social media marketing, and SEO   optimization.</p>
+                <button id="wsignup">Sign up!</button>
+            </div>
+                <img id="business-img" src="https://images.pexels.com/photos/4348401/pexels-photo-4348401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="business image">
         </div>
     </div>
     <div class="main">
-        <h2>Some random information</h2>
+        <h2 id="info">Some random information</h2>
         <div class="squares">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+            <div class="box">
+                <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="computer with pink lights behind">
+                <h3>Graphic Design</h3>
+                <p>Elevate your brand with our creative designs, ensuring a lasting impression.</p>
+            </div>
+            <div class="box">
+                <img src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="glasses with computer code behind">
+                <h3>Web Development</h3>
+                <p>Bring ideas to life online with our responsive, business-tailored websites.</p>
+            </div>
+            <div class="box">
+                <img src="https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="social media icons">
+                <h3>Social Media</h3>
+                <p>Enhance online presence with expertly crafted content and social media strategies from our team.</p>
+            </div>
+            <div class="box">
+                <img src="https://images.pexels.com/photos/590016/pexels-photo-590016.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="analytic papers">
+                <h3>SEO Optimization</h3>
+                <p>Boost online visibility. We optimize your site for higher rankings, driving organic traffic.</p>
+            </div>
         </div>
-        <div class="quote">
-            <h2><em>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</em></h2>
-            <h3 id="quote">-Thor, God of Thunder</h3>
-        </div>
-        <div class="calltoaction">
-            <h3 id="action">Call to action! It's time!</h3>
-            <p>Sign up for our product by clicking that button right over there!</p>
-            <button id="signup">Sign up</button>
-        </div>
+    </div>    
+    <div class="quote">
+        <p>"Creativity is contagious, pass it on. The true sign of intelligence is not knowledge but imagination. Logic will get you from A to B. Imagination will take you everywhere. The only way to do great work is to love what you do. Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do."</p>
+        <p id="quote-author">- Albert Einstein</p>
+    </div>
+    <div class="calltoaction">
+        <h3 id="action">Ready to Transform Your Digital Presence?</h3>
+        <p>Sign up for our newsletter to stay updated on the latest trends and receive exclusive offers.</p>        
+        <button id="signup">Sign up</button>
     </div>
     <footer>Copyright © The Odin Project 2023</footer>
 </body>

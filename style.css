@@ -1,0 +1,139 @@
+body{
+    background-color: #1f2937;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header {
+    color: white;
+    padding: 15px 150px;
+}
+
+.nav {
+    font-size: 20px;
+    list-style: none;
+    gap: 20px;
+    display: flex;
+    margin: 0;
+    padding-bottom: 50px;
+    padding-left: 0;
+}
+
+
+.nav li {
+    cursor: pointer;
+}
+
+#logo {
+    margin-right: auto;
+}
+
+#logo img {
+    height: 100px;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+}
+
+.text-box {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.greeting {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight:bolder;
+}
+.greeting,
+.welcome p {
+    margin: 8px;
+    flex: 1;
+}
+
+.welcome p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#business-img {
+    flex-shrink: 0; /* Do not shrink the image */
+    margin-left: auto; /* Push the image to the right */   
+    height: 300px;
+    margin-left: auto;
+    border: solid 5px white;
+    border-radius: 5px;
+}
+
+button#wsignup {
+    width: 100px;
+    color: white;
+    background-color: #3882f6;
+    font-weight: bold;
+    padding: 8px 10px;
+    margin-left: 8px;
+    border-radius: 5px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    padding: 20px   150px;
+}
+
+#info  {
+    display: flex;
+    font-size: 36px;
+    justify-content: center;
+}
+
+.squares {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.box {
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+}
+
+.box p {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.squares img {
+    width: 125px;
+    height: 100px;
+    overflow: hidden;
+    border: solid 3px royalblue;
+    border-radius: 5px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 80px 150px;
+    text-align: right;
+}
+
+#quote-auther {
+    text-align: right;
+}
+
+.calltoaction {
+    margin-top: 0;
+    background-color: white;
+}
+
